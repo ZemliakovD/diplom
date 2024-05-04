@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>مدونة التكنولوجيا | خدمة الطلب</title>
+  <meta name="description"
+    content="Internet marketing and online advertising agency ConvertMonster: creation of Landing Page, setting up contextual advertising, SEO analysis, effective email marketing." />
+  <meta name="keywords" content="websites, development, website creation, landing page, corporate website" />
+  <link rel="icon" href="img/fav.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <section class="main">
+    <div class="wrapper">
+      <div class="row">
+        <div class="col-12">
+          <div class="container">
+            <header class="header">
+              <div class="header-inner">
+                <nav class="navbar navbar-dark bg-dark fixed-top">
+                  <div class="container-fluid">
+                    <a class="navbar-brand logo" href="https://x-dev.website/">Studio <br><span>x-dev</span></a>
+                    <div class="menu-inner">
+                      <ul class="menu-list">
+                        <li class="menu-list-item">
+                          <a class="nav-link active-menu" aria-current="page" href="arab.html" id="main">بيت</a>
+                        </li>
+                        <li class="menu-list-item">
+                          <a class="nav-link" href="news.html">مدونة</a>
+                        </li>
+                        <li class="menu-list-item">
+                          <a class="nav-link" href="#" id="contacts">جهات الاتصال</a>
+                        </li>
+                        <li class="menu-list-item">
+                          <a href="#" class="header-phone">تسجيل الدخول</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <button class="navbar-toggler menu-toggle" type="button" data-bs-toggle="offcanvas"
+                      data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                      aria-labelledby="offcanvasDarkNavbarLabel">
+                      <div class="offcanvas-header">
+                        <a class="navbar-brand logo" href="https://x-dev.website/">Studio <br><span>x-dev</span></a>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                          aria-label="Close"></button>
+                      </div>
+                      <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="arab.html">بيت</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="news.html">مدونة</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">جهات الاتصال</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link button header-button" href="#">تسجيل الدخول</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </nav>
+                <div class="main-content">
+                  <div class="main-info">
+                    <h1>بلوكتشين <br> <span>ومعلومات الاتصالات</span></h1>
+                    <p>نحن نطور حلولاً للمملكة العربية السعودية والإمارات العربية المتحدة</p>
+                    <div class="info-order">
+                      <button type="button" class="button main-button" data-bs-toggle="modal"
+                        data-bs-target="#callbackModal">أكثر <i class="fa-solid fa-angle-right fa-beat"
+                          style="color: #ffffff;"></i></button>
+                      <p><a href="#">هل لديك أسئلة؟</a></p>
+                    </div>
+                  </div>
+                  <div class="main-banner">
+                    <img src="img/man.png" alt="Сайты на зака в Минске">
+                  </div>
+                </div>
+              </div>
+            </header>
+            <!-- Модальное окно -->
+            <div class="modal fade" id="callbackModal" tabindex="-1" aria-labelledby="callbackModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content main-modal-content">
+                  <div class="modal-header main-modal-header">
+                    <p>قم بوصف طلبك بالتفصيل <br> أو اتصل بنا عبر الهاتف <a href="tel:+375336169467">+375
+                        (33) 616-94-67</a></p>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                  </div>
+                  <div class="modal-body main-modal-body">
+                    <form class="header-form">
+                      <input type="text" class="form-control" placeholder="اسم" aria-label="اسم">
+                      <input type="tel" class="form-control" placeholder="هاتف" aria-label="هاتف">
+                      <input type="email" class="form-control" id="floatingInput" placeholder="بريد إلكتروني">
+                      <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                        <option selected>حدد التعريفة</option>
+                        <option>ابتدائي</option>
+                        <option>قاعدة</option>
+                        <option>متوسط</option>
+                        <option>احترافي</option>
+                        <option>أقصى</option>
+                      </select>
+                      <input type="text" class="form-control" placeholder="ميزانية" aria-label="Budget">
+                      <textarea class="form-control" placeholder="ماذا نحتاج أن نعرف؟" id="floatingTextarea2"
+                        style="height: 100px"></textarea>
+                      <button type="button" class="btn btn-secondary">يرسل</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="specail-border"></section>
+  <section class="reasons">
+    <div class="row">
+      <div class="col-12">
+        <div class="container">
+          <div class="reasons-inner">
+            <div class="reasons-top">
+              <div class="reasons-info">
+                <h2>مدونة التكنولوجيا</h2>
+                <p>ستجد في مدونتنا أحدث المقالات والمراجعات حول تطوير الويب وتصميمه وتسويقه.</p>
+                <p>تعرف على أحدث الاتجاهات وأفضل الممارسات لتواجد ناجح لشركتك عبر الإنترنت!
+                </p>
+                <a href="#" class="reasons-button" id="me-order">اقترح موضوعا</a>
+              </div>
+              <div class="reasons-card">
+                <div class="card-inner">
+                  <h4>أفضل 10 أدوات لإدارة مشاريع تطوير الويب</h4>
+                  <p>أفضل 10 أدوات لإدارة مشاريع تطوير الويب: تتبع التقدم وتحسين كفاءة الفريق!</p>
+                  <img src="img/price.svg" alt="Цены на создание сайта">
+                </div>
+              </div>
+            </div>
+            <div class="reasons-bottom">
+              <div class="reasons-card">
+                <div class="card-inner">
+                  <h4>أعلى 5 اتجاهات التصميم لعام 2024</h4>
+                  <p>أهم 5 اتجاهات تصميمية لعام 2024: احصل على الإلهام من الأفكار الجديدة وقم بإنشاء صور مرئية فريدة لموقعك على الويب!</p>
+                  <img src="img/consult.svg" alt="Этапы разработки сайта" class="consult">
+                </div>
+              </div>
+              <div class="reasons-card">
+                <div class="card-inner">
+                  <h4>5 طرق لتحسين سهولة استخدام موقع الويب الخاص بك</h4>
+                  <p>5 طرق لتحسين سهولة استخدام موقع الويب الخاص بك: اجعل تجربة المستخدم أكثر ملاءمة وجاذبية للزوار!</p>
+                  <img src="img/time.svg" alt="Создание веб сайта" class="time">
+                </div>
+              </div>
+              <div class="reasons-card">
+                <div class="card-inner">
+                  <h4>كيفية إنشاء استراتيجية محتوى فعالة لعملك عبر الإنترنت</h4>
+                  <p>كيفية إنشاء إستراتيجية محتوى فعالة لأعمالك التجارية عبر الإنترنت: قم بإشراك جمهورك وبناء سمعتك عبر الإنترنت باستخدام المحتوى المناسب!</p>
+                  <img src="img/team.svg" alt="Создание сайта с нуля" class="spec">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="order">
+    <div class="row">
+      <div class="col-12">
+        <div class="container">
+          <div class="order-inner">
+            <div class="order-info">
+              <div class="order-form-info">
+                <h2>ترك الطلب</h2>
+                <form class="row g-3 order-form">
+                  <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Your full name</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">عنوان بريدك  الإلكتروني</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">رقم تليفونك</label>
+                    <input type="tel" class="form-control" id="inputEmail4">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">تعليقك (اختياري)</label>
+                    <textarea class="form-control" aria-label="С текстовым полем"></textarea>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">ميزانية</label>
+                    <textarea class="form-control" aria-label="С текстовым полем"></textarea>
+                  </div>
+                  <div class="col-md-6">
+                    <button type="submit" class="btn btn-primary">يرسل</button>
+                  </div>
+                </form>
+              </div>
+              <div class="order-form-banner">
+                <img src="img/phone.png" alt="Разработка сайтов на заказ">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="row">
+      <div class="col-12">
+        <div class="container">
+          <div class="footer-inner">
+            <p>جهات الاتصال</p>
+            <div class="social">
+              <a href="tel:+375336169467">
+                <img src="img/social/phone.png" alt="Агенство по разработке сайтов">
+              </a>
+              <a href="mailto:test@gmail.com">
+                <img src="img/social/gmail.png" alt="Заказать сайт с нуля">
+              </a>
+              <a href="https://www.instagram.com/" target="_blank">
+                <img src="img/social/instagram.png" alt="Разработка сайтов в Минске">
+              </a>
+              <a href="https://desktop.telegram.org/" target="_blank">
+                <img src="img/social/telegram.png" alt="Создание сайтов в Минске">
+              </a>
+              <a href="https://www.viber.com/ru/" target="_blank">
+                <img src="img/social/viber.png" alt="Создать сайт с нуля">
+              </a>
+            </div>
+            <div class="footer-bottom">
+              <p>© 2024، X-DEV Studio - التقنيات و blockchain</p>
+              <a href="#">سياسة الموقع ومعالجة البيانات الشخصية</a>
+              <div class="lang-chec">
+                <a href="blog.html">
+                  <img src="img/eng.png" alt="">
+                </a>
+                <a href="news.html">
+                  <img src="img/aravia.png" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

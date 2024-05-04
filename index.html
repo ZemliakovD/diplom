@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Technology and blockchain | Order service</title>
+  <meta name="description"
+    content="Internet marketing and online advertising agency ConvertMonster: creation of Landing Page, setting up contextual advertising, SEO analysis, effective email marketing." />
+  <meta name="keywords" content="websites, development, website creation, landing page, corporate website" />
+  <link rel="icon" href="img/fav.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <section class="main">
+    <div class="wrapper">
+      <div class="row">
+        <div class="col-12">
+          <div class="container">
+            <header class="header">
+              <div class="header-inner">
+                <nav class="navbar navbar-dark bg-dark fixed-top">
+                  <div class="container-fluid">
+                    <a class="navbar-brand logo" href="https://x-dev.website/">Studio <br><span>x-dev</span></a>
+                    <div class="menu-inner">
+                      <ul class="menu-list">
+                        <li class="menu-list-item">
+                          <a class="nav-link active-menu" aria-current="page" href="index.html" id="main">Home</a>
+                        </li>
+                        <li class="menu-list-item">
+                          <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="menu-list-item">
+                          <a class="nav-link" href="#" id="contacts">Contacts</a>
+                        </li>
+                        <li class="menu-list-item">
+                          <a href="#" class="header-phone">Log in</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <button class="navbar-toggler menu-toggle" type="button" data-bs-toggle="offcanvas"
+                      data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                      aria-labelledby="offcanvasDarkNavbarLabel">
+                      <div class="offcanvas-header">
+                        <a class="navbar-brand logo" href="https://x-dev.website/">Studio <br><span>x-dev</span></a>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                          aria-label="Close"></button>
+                      </div>
+                      <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Contacts</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link button header-button" href="#">Log in</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </nav>
+                <div class="main-content">
+                  <div class="main-info">
+                    <h1>BLOCKCHAIN <br> <span>AND INFO COMMUNICATIONS</span></h1>
+                    <p>We develop solutions for Saudi Arabia and the UAE</p>
+                    <div class="info-order">
+                      <button type="button" class="button main-button" data-bs-toggle="modal"
+                        data-bs-target="#callbackModal">More <i class="fa-solid fa-angle-right fa-beat"
+                          style="color: #ffffff;"></i></button>
+                      <p><a href="#">Have questions?</a></p>
+                    </div>
+                  </div>
+                  <div class="main-banner">
+                    <img src="img/man.png" alt="Сайты на зака в Минске">
+                  </div>
+                </div>
+              </div>
+            </header>
+            <!-- Модальное окно -->
+            <div class="modal fade" id="callbackModal" tabindex="-1" aria-labelledby="callbackModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content main-modal-content">
+                  <div class="modal-header main-modal-header">
+                    <p>Describe your request in detail <br> or call us by phone <a href="tel:+375336169467">+375
+                        (33) 616-94-67</a></p>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                  </div>
+                  <div class="modal-body main-modal-body">
+                    <form class="header-form">
+                      <input type="text" class="form-control" placeholder="Name" aria-label="Name">
+                      <input type="tel" class="form-control" placeholder="Telephone" aria-label="Telephone">
+                      <input type="email" class="form-control" id="floatingInput" placeholder="Email">
+                      <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                        <option selected>Select tariff</option>
+                        <option>Elementary</option>
+                        <option>Base</option>
+                        <option>Average</option>
+                        <option>Professional</option>
+                        <option>Maximum</option>
+                      </select>
+                      <input type="text" class="form-control" placeholder="Budget" aria-label="Budget">
+                      <textarea class="form-control" placeholder="What else do we need to know" id="floatingTextarea2"
+                        style="height: 100px"></textarea>
+                      <button type="button" class="btn btn-secondary">Send</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="specail-border"></section>
+  <section class="reasons">
+    <div class="row">
+      <div class="col-12">
+        <div class="container">
+          <div class="reasons-inner">
+            <div class="reasons-top">
+              <div class="reasons-info">
+                <h2>Reasons to cooperate with us</h2>
+                <p>You can look at competitors' websites where they shout that they are the best, while they only talk about it
+                  - we speak the language of facts</p>
+                <p>You can read information about us in a couple of minutes, and then look at our portfolio
+                </p>
+                <a href="#" class="reasons-button" id="me-order">Submit your application</a>
+              </div>
+              <div class="reasons-card">
+                <div class="card-inner">
+                  <h4>Acceptable prices</h4>
+                  <p>We try as much as possible to reduce the prices for our work so that prices do not bite</p>
+                  <img src="img/price.svg" alt="Цены на создание сайта">
+                </div>
+              </div>
+            </div>
+            <div class="reasons-bottom">
+              <div class="reasons-card">
+                <div class="card-inner">
+                  <h4>Consultation before ordering</h4>
+                  <p>Our managers are online 24/7 and are ready to help you and answer your questions</p>
+                  <img src="img/consult.svg" alt="Этапы разработки сайта" class="consult">
+                </div>
+              </div>
+              <div class="reasons-card">
+                <div class="card-inner">
+                  <h4>Unlimited edits</h4>
+                  <p>We do not charge for edits within the scope of the functions described in the technical specifications</p>
+                  <img src="img/time.svg" alt="Создание веб сайта" class="time">
+                </div>
+              </div>
+              <div class="reasons-card">
+                <div class="card-inner">
+                  <h4>Post-launch support</h4>
+                  <p>We provide technical support for a month after the launch of your site</p>
+                  <img src="img/team.svg" alt="Создание сайта с нуля" class="spec">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="partfolio">
+    <div class="row">
+      <div class="col-12">
+        <div class="container">
+          <div class="partfolio-inner">
+            <div class="partfolio-info">
+              <h2>Our projects</h2>
+              <p>Cases of all our work for 2023 - 2024</p>
+              <a href="#" class="button partfolio-button" target="_blank">Fill out the brief</a>
+            </div>
+            <div class="partfolio-card">
+              <div class="partfolio-slider">
+                <div class="partfolio-slider-item"><img src="img/partfolio/partfilio_1.jpg"
+                    alt="Заказать разработку сайта"></div>
+                <div class="partfolio-slider-item"><img src="img/partfolio/partfilio_2.jpg"
+                    alt="Заказать разработку сайта"></div>
+                <div class="partfolio-slider-item"><img src="img/partfolio/partfilio_3.jpg"
+                    alt="Заказать разработку сайта"></div>
+                <div class="partfolio-slider-item"><img src="img/partfolio/partfilio_4.jpg"
+                    alt="Заказать разработку сайта"></div>
+                <div class="partfolio-slider-item"><img src="img/partfolio/partfilio_5.jpg"
+                    alt="Заказать разработку сайта"></div>
+                <div class="partfolio-slider-item"><img src="img/partfolio/partfilio_6.jpg"
+                    alt="Заказать разработку сайта"></div>
+                <div class="partfolio-slider-item"><img src="img/partfolio/partfilio_7.jpg"
+                    alt="Заказать разработку сайта"></div>
+              </div>
+              <a href="#" target="_blank" class="button partfolio-button mob-button">Fill out the brief</a>
+            </div>
+          </div>
+          <div class="rates-inner">
+            <h2>Services</h2>
+            <div class="rates-slider">
+              <div class="rates-slider-item">
+                <div class="rates-card">
+                  <div class="rates-card-inner">
+                    <h3>Pack <br> «Elementary»</h3>
+                    <p>The initial package includes consultation on the project and a minimum set of analytics. The package provides only analysis and statistics data.</p>
+                    <div class="rates-card-order">
+                      <div class="rates-card-cost">
+                        <p>50 $</p>
+                        <span>from 3 days</span>
+                      </div>
+                      <button type="button" class="button rates-button" data-bs-toggle="modal"
+                      data-bs-target="#callbackModal">Order <i class="fa-solid fa-angle-right fa-beat rates-fav"
+                          style="color: #ffffff;"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="rates-slider-item">
+                <div class="rates-card">
+                  <div class="rates-card-inner">
+                    <h3>Pack <br> «Base»</h3>
+                    <p>As part of this tariff, you will be provided with the creation of a simple but functional web resource with a unique design and basic functionality. The development will include adaptive design for easy viewing on various devices, integration of the main elements of a web page (navigation, contact form, gallery, etc.) and optimization for search engines.</p>
+                    <div class="rates-card-order">
+                      <div class="rates-card-cost">
+                        <p>100 $</p>
+                        <span>from 5 days</span>
+                      </div>
+                      <button type="button" class="button rates-button" data-bs-toggle="modal"
+                      data-bs-target="#callbackModal">Order <i class="fa-solid fa-angle-right fa-beat rates-fav"
+                          style="color: #ffffff;"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="rates-slider-item">
+                <div class="rates-card">
+                  <div class="rates-card-inner">
+                    <h3>Pack <br> «Average»</h3>
+                    <p>As part of the «Average» tariff, you will be given the opportunity to create a web resource with a more complex design and advanced functionality. This may include the integration of additional modules and functions, the development of interactive elements, an improved administrative panel for content management, integration with external services and APIs, and the ability to scale the project in the future.</p>
+                    <div class="rates-card-order">
+                      <div class="rates-card-cost">
+                        <p>150 $</p>
+                        <span>from 7 days</span>
+                      </div>
+                      <button type="button" class="button rates-button" data-bs-toggle="modal"
+                      data-bs-target="#callbackModal">Order <i class="fa-solid fa-angle-right fa-beat rates-fav"
+                          style="color: #ffffff;"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="rates-slider-item">
+                <div class="rates-card">
+                  <div class="rates-card-inner">
+                    <h3>Pack <br> «Professional»</h3>
+                    <p>As part of the «Professional» tariff, you will be provided with a full project development cycle, starting with analysis and design, ending with testing, optimization and launch. This rate includes the development of custom solutions, integration of advanced technologies and tools, creation of a unique design taking into account all the needs and goals of the customer, as well as a high level of security and performance.</p>
+                    <div class="rates-card-order">
+                      <div class="rates-card-cost">
+                        <p>200 $</p>
+                        <span>from 7 days</span>
+                      </div>
+                      <button type="button" class="button rates-button" data-bs-toggle="modal"
+                      data-bs-target="#callbackModal">Order <i class="fa-solid fa-angle-right fa-beat rates-fav"
+                          style="color: #ffffff;"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="rates-slider-item">
+                <div class="rates-card">
+                  <div class="rates-card-inner">
+                    <h3>Pack <br> «Maximum»</h3>
+                    <p>As part of the «Maximum» tariff, you will be provided with everything you need to create a project of the highest level: development of custom solutions, integration of advanced technologies and tools, creation of a unique and innovative design, high level of security and performance, as well as project scalability for future growth and development .</p>
+                    <div class="rates-card-order">
+                      <div class="rates-card-cost">
+                        <p>300 $</p>
+                        <span>from 7 days</span>
+                      </div>
+                      <button type="button" class="button rates-button" data-bs-toggle="modal"
+                      data-bs-target="#callbackModal">Order <i class="fa-solid fa-angle-right fa-beat rates-fav"
+                          style="color: #ffffff;"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="order">
+    <div class="row">
+      <div class="col-12">
+        <div class="container">
+          <div class="order-inner">
+            <div class="order-info">
+              <div class="order-form-info">
+                <h2>Leave a request</h2>
+                <form class="row g-3 order-form">
+                  <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Your full name</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Your E-MAIL address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Your phone number</label>
+                    <input type="tel" class="form-control" id="inputEmail4">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Your comment (optional)</label>
+                    <textarea class="form-control" aria-label="С текстовым полем"></textarea>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Budget</label>
+                    <textarea class="form-control" aria-label="С текстовым полем"></textarea>
+                  </div>
+                  <div class="col-md-6">
+                    <button type="submit" class="btn btn-primary">Send</button>
+                  </div>
+                </form>
+              </div>
+              <div class="order-form-banner">
+                <img src="img/phone.png" alt="Разработка сайтов на заказ">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="row">
+      <div class="col-12">
+        <div class="container">
+          <div class="footer-inner">
+            <p>Contacts</p>
+            <div class="social">
+              <a href="tel:+375336169467">
+                <img src="img/social/phone.png" alt="Агенство по разработке сайтов">
+              </a>
+              <a href="mailto:test@gmail.com">
+                <img src="img/social/gmail.png" alt="Заказать сайт с нуля">
+              </a>
+              <a href="https://www.instagram.com/" target="_blank">
+                <img src="img/social/instagram.png" alt="Разработка сайтов в Минске">
+              </a>
+              <a href="https://desktop.telegram.org/" target="_blank">
+                <img src="img/social/telegram.png" alt="Создание сайтов в Минске">
+              </a>
+              <a href="https://www.viber.com/ru/" target="_blank">
+                <img src="img/social/viber.png" alt="Создать сайт с нуля">
+              </a>
+            </div>
+            <div class="footer-bottom">
+              <p>© 2024, X-DEV Studio - Technologies and blockchain</p>
+              <a href="#">Site policy and processing of personal data</a>
+              <div class="lang-chec">
+                <a href="index.html">
+                  <img src="img/eng.png" alt="">
+                </a>
+                <a href="arab.html">
+                  <img src="img/aravia.png" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
